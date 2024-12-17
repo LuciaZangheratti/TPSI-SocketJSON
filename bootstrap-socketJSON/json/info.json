@@ -1,0 +1,34 @@
+{
+    "navbar": [
+        { "text": "Home", "link": "homepage.html" },
+        { "text": "Introduzione", "link": "p1.html" },
+        { "text": "Informatica", "link": "info.html" },
+        { "text": "Sistemi", "link": "sistemi.html" }
+    ],
+    "header": {
+      "titolo": "Applicazioni pratiche nell'informatica"
+    },
+    "progetti": [
+      {
+        "titolo": "Chat Room Multiutente (Socket TCP)",
+        "descrizione": "Una chat room multiutente consente a diversi utenti di comunicare in tempo reale. Il server crea una socket e ascolta nuove connessioni. Ogni client si connette al server tramite una socket dedicata, e il server inoltra i messaggi ricevuti da un client agli altri utenti.",
+        "tecnologie": ["Python (libreria socket per server e client)", "Threading (gestire più connessioni simultanee)"],
+        "funzionalita": ["Autenticazione dell'utente", "Crittografia sui messaggi"]
+      },
+      {
+        "titolo": "File Server",
+        "descrizione": "Un file server consente di inviare e ricevere file tramite socket. Il server ascolta richieste di download/upload da parte dei client e invia i file in blocchi di dati per gestire file di grandi dimensioni.",
+        "tecnologie": ["TCP (per garantire l'affidabilità nella trasmissione)"],
+        "funzionalita": ["Compressione dei file prima della trasmissione", "Logging delle attività per motivi di sicurezza"]
+      },
+      {
+        "titolo": "Ping Personalizzato",
+        "descrizione": "Un'applicazione che simula il comando ping per verificare la connessione con un dispositivo remoto. Il client invia pacchetti ICMP o messaggi TCP/UDP al server e misura il tempo di risposta per ogni pacchetto.",
+        "tecnologie": ["Monitoraggio delle prestazioni di rete", "Identificazione di problemi di latenza"],
+        "funzionalita": []
+      }
+      
+    ],
+     "projectImage": "img2.jpg"
+  }
+  

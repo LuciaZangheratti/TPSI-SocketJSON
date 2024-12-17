@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* Il contenitore principale occupa lo spazio rimanente */
+.content {
+  flex: 1;
+
+}
+
+/* Footer sempre in basso */
+footer {
+  flex-shrink: 0;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #edf2f4;
+  
+}  
+/*card della pagina glossario*/    
+.term-card {
+  background: #f8f9fa;
+  color: #333;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.term-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+h5 {
+  color: #2a4d69;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.navbar-brand img {
+  height: 40px; /* Altezza del logo */
+  width: auto;  /* Mantiene il rapporto d'aspetto */
+  margin-right: 10px; /* Spazio tra immagine e testo */
+}
+
+.custom-img {
+  max-width: 100%; 
+  height: auto;
+  width: 50%; 
+  border-radius: 15px; /* Opzionale: per arrotondare */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opzionale: ombra */
+}

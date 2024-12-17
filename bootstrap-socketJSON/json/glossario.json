@@ -1,0 +1,70 @@
+{
+    "terms": [
+      {
+        "name": "Socket",
+        "definition": "Teoria software progettata per la trasmissione e la ricezione di dati attraverso una rete, per inviare e ricevere dati tra un client e un server."
+      },
+      {
+        "name": "TCP/IP",
+        "definition": "Un protocollo di comunicazione che consente il trasferimento affidabile di dati tra dispositivi connessi alla rete."
+      },
+      {
+        "name": "HTTP",
+        "definition": "Protocollo di trasferimento ipertestuale utilizzato per comunicare tra client (come i browser) e server web."
+      },
+      {
+        "name": "UDP",
+        "definition": "Un protocollo di comunicazione senza connessione che offre una trasmissione veloce ma senza garanzie di affidabilità."
+      },
+      {
+        "name": "VoIP",
+        "definition": "La VoIP (Voice over IP) è una tecnologia che permette la trasmissione di voce e video attraverso la rete Internet."
+      },
+      {
+        "name": "Chat Room Multiutente",
+        "definition": "Area virtuale in cui si svolgono le comunicazioni in tempo reale fra due o più utenti collegati allo stesso canale telematico."
+      },
+      {
+        "name": "Threading",
+        "definition": "Suddivisione di un processo in due o più sottoprocessi(istanze)."
+      },
+      {
+        "name": "File Server",
+        "definition": "E' un server centrale, che permette ai client connessi in una rete di computer di accedere ai file archiviati su disco."
+      },
+      {
+        "name": "Ping personalizzato",
+        "definition": "Applicazione personalizzata che simula il comando ping per verificare la connessione con un dispositivo remoto."
+      },
+      {
+        "name": "AF-INET",
+        "definition": "Famiglia di indirizzi che fornisce la comunicazione tra processi che vengono eseguiti sullo stesso sistema o su sistemi differenti."
+      },
+      {
+        "name": "SOCK_STREAM",
+        "definition": "Tipologia di socket che fornisce una connessione sequenziale, affidabile e full-duplex."
+      },
+      {
+        "name": "SOCK_DGRAM",
+        "definition": "Tipologia di socket che supporta l’invio di datagrammi, ovvero pacchetti di dati indipendenti e inaffidabili."
+      },
+      {
+        "name": "Messaggi di SYN e ACK",
+        "definition": "Il flag SYN indica l'accordo del server a stabilire una connessione e il flag ACK conferma la ricezione del pacchetto SYN del client."
+      },
+      {
+        "name": "Email (SMTP/POP3/IMAP)",
+        "definition": "SMTP: gestisce la trasmissione delle email tra i server, POP3: scarica le email su un dispositivo, IMAP: sincronizza le email tra più dispositivi."
+      },
+      {
+        "name": "FTP (File Transfer Protocol)",
+        "definition": "Protocollo usato per trasferire file tra computer su Internet."
+      },
+      {
+        "name": "Link esterni:",
+        "definition": "https://vitolavecchia.altervista.org/che-cose-a-cosa-serve-e-tipi-di-socket-in-informatica/"
+      }
+      
+    ]
+  }
+  

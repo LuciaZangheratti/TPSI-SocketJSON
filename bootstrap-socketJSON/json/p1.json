@@ -1,0 +1,47 @@
+{
+    "navbar": [
+        { "text": "Home", "link": "homepage.html" },
+        { "text": "Introduzione", "link": "p1.html" },
+        { "text": "Informatica", "link": "info.html" },
+        { "text": "Sistemi", "link": "sistemi.html" }
+    ],
+    "introduzione": {
+      "titolo": "Socket: Approfondimento",
+      "descrizione": "Scopri tutto ciò che c'è da sapere sui socket: dalle basi alle applicazioni più avanzate nella comunicazione tra client e server."
+    },
+    "sezione1": {
+      "titolo": "1. Cos'è un Socket?",
+      "paragrafi": [
+        "Il termine socket si indica una teoria software progettata per la trasmissione e la ricezione di dati attraverso una rete.",
+        "È il punto in cui il codice applicativo di un processo accede al canale di comunicazione per mezzo di una porta, ottenendo una comunicazione tra processi che lavorano su due macchine fisicamente separate.",
+        "Uno dei due processi che comunicano è chiamato Server (il receiver) e l’altro Client (il sender). Tra i due processi il server è quello che ha controllo maggiore, poiché è il processo che inizialmente crea la socket.",
+        "Più client possono comunicare attraverso la stessa socket, ma solo un server può essere associato ad una definita socket."
+      ]
+    },
+    "sezione2": {
+      "titolo": "2. Tipi di Socket",
+      "descrizione": "Il tipo di una socket definisce la modalità di comunicazione che una socket usa per inviare dati:",
+      "tipi": [
+        {
+          "nome": "Streaming Socket (SOCK_STREAM)",
+          "descrizione": "Fornisce una connessione sequenziale, affidabile e full-duplex. Il protocollo TCP supporta questo tipo di socket."
+        },
+        {
+          "nome": "Datagram socket (SOCK_DGRAM)",
+          "descrizione": "Supportano l’invio di datagrammi, ovvero pacchetti di dati indipendenti e inaffidabili, con una lunghezza massima predefinita. Il protocollo UDP supporta questo tipo di socket."
+        }
+      ]
+    },
+    "sezione3": {
+      "titolo": "3. Comunicazione Client-Server",
+      "descrizione": "Una socket che usa la famiglia di protocolli TCP/IP è univocamente determinata da un indirizzo internet, un protocollo di comunicazione (TCP o UDP) e un numero di porta.",
+      "punti": [
+        "Durante l’handshake a tre vie il TCP server crea un nuova socket di connessione dedicata a quel particolare client.",
+        "Il client deve contattare il server e il programma server deve essere in esecuzione come processo di background.",
+        "Il client contatta il server tramite: la creazione di una socket locale e la specifica di un indirizzo del processo server (IP, numero di porta relativi al processo).",
+        "Dopo la creazione della socket nel client, TCP avvia un handshake a tre vie e stabilisce una connessione TCP con il server. Una volta completata la comunicazione, entrambi i socket vengono chiusi."
+      ]
+    }, 
+    "img":"img1.jpg"
+  }
+  

@@ -1,0 +1,44 @@
+{
+    "navbar": [
+        { "text": "Home", "link": "homepage.html" },
+        { "text": "Introduzione", "link": "p1.html" },
+        { "text": "Informatica", "link": "info.html" },
+        { "text": "Sistemi", "link": "sistemi.html" }
+    ],
+    "header": {
+      "titolo": "Applicazioni e Sistemi che implementano le Socket",
+      "descrizione": "Scopri come le socket sono alla base delle tecnologie che utilizzi ogni giorno."
+    },
+    "introduzione": {
+      "titolo": "Perché le Socket sono importanti?",
+      "descrizione": "Le socket permettono la comunicazione tra dispositivi e applicazioni in rete, rendendo possibili funzionalità che diamo per scontate, come la navigazione sul web, la messaggistica istantanea e lo streaming video."
+    },
+    "applicazioni": [
+      {
+        "titolo": "HTTP/HTTPS",
+        "descrizione": "Le applicazioni web usano le socket per la comunicazione tra browser e server. HTTP, basato su TCP, garantisce l'affidabilità della trasmissione dati."
+      },
+      {
+        "titolo": "FTP (File Transfer Protocol)",
+        "descrizione": "Protocollo per il trasferimento di file tra client e server. Utilizza socket per connessioni stabili e sicure."
+      },
+      {
+        "titolo": "Email (SMTP/POP3/IMAP)",
+        "descrizione": "I protocolli di posta elettronica si basano su socket per inviare e ricevere email tra server e client."
+      },
+      {
+        "titolo": "VoIP",
+        "descrizione": "Applicazioni come Skype e Zoom usano socket per trasmettere audio e video in tempo reale, rendendo possibili chiamate di alta qualità."
+      },
+      {
+        "titolo": "Gaming Online",
+        "descrizione": "I giochi multiplayer online utilizzano socket per la comunicazione in tempo reale tra i giocatori, assicurando un'esperienza fluida e coinvolgente."
+      }
+    ],
+    "footer": {
+      "autore": "Zangheratti Lucia",
+      "classe": "5E",
+      "anno": "2024"
+    }
+  }
+  

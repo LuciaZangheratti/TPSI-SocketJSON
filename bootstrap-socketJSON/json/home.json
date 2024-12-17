@@ -1,0 +1,34 @@
+{
+    "navbar": [
+        { "text": "Home", "link": "homepage.html" },
+        { "text": "Introduzione", "link": "p1.html" },
+        { "text": "Informatica", "link": "info.html" },
+        { "text": "Sistemi", "link": "sistemi.html" }
+    ],
+    "intro": {
+        "title": "Introduzione ai Socket",
+        "paragraphs": [
+            "I socket sono un'interfaccia per comunicare tra processi attraverso la rete.",
+            "Sono fondamentali per lo sviluppo di applicazioni client-server."
+        ],
+        "video": "introduzione.mp4"
+    },
+    "content": [
+        {
+            "title": "Cos'è un Socket?",
+            "description": "Un socket è un punto finale per inviare e ricevere dati attraverso una connessione di rete."
+        },
+        {
+            "title": "Socket TCP/UDP",
+            "description": "I socket possono utilizzare i protocolli TCP o UDP per la comunicazione."
+        },
+        {
+            "title": "Applicazioni dei Socket",
+            "description": "I socket vengono utilizzati in applicazioni come server web, client email e giochi online."
+        },
+        {
+            "title": "Esempi Pratici",
+            "description": "Ti mostreremo esempi pratici di programmazione dei socket in vari linguaggi di programmazione."
+        }
+    ]
+}
